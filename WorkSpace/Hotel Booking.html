@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<htms>
+    <head>
+        <meta charset="UTF-8">
+        <title>Semantic HTML5 Elements </title>
+    </head>
+    <body>
+        <forms action="comment.html" method="GET">
+            <fieldset>
+                <legend>Personal Details:</legend>
+                <label for="username">Username: </label><input type="text" id="username" name="name" autofocus required>
+                <label for="email">email: </label><input type="email" name="email" id="email" pattern="[a-zA-Z]{3,}@[a-zA-Z]{2,}" title="please enter valid email address: example@example.com">
+                <label for="phone">phone: </label><input type="tel" name="phone" id="phone" pattern="[0-9]{3}[0-9]{3}" title="please enter in a number in this format: #### ### ###">
+                <select name="country" required>
+                    <option value=""> </option>
+                    <option value="US">US</option>
+                    <option value="UK">UK</option>
+                    <option value="India">India</option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Booking Details:</legend>
+                <label for="date">Booking date:</label><input type="date" id="date" name="date" min="2019-12-02">
+                <label for="numberOfGuest">numberOfGuest</label><input  type="number" id="numberOfGuest" name="numberOfGuest" min="1" max="6">
+                <p>Do you required meals?</p>
+                <label for="yesmeals">yesmeals:</label><input type="radio" id="yesmeals" name="meals" value="yesmeals">
+                <label for="nomeals">nomeals:</label><input type="radio" id="nomeals" name="meals" value="nomeals">
+                <br>
+                <label for="balcony">Do you required balcony?</label><input type="checkbox" name="balcony" value="yes" checked>
+                <br>
+                <input type="image" src="image/button.png" alt="Submit">
+
+
+            </fieldset>
+
+        </forms>
+    </body>
+    </html>

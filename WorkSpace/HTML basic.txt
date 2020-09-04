@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+ <html>
+ <main> 
+ <title> Basic </title>
+ <h1> Webpage </h1> <!-- main heading -->
+ <h2> Hello world</h2> <!-- sub heading -->
+ <div>
+ <p> paragraph </p>
+ <img scr="http:// image-source.com/ image.jpg">
+ <a href="http://anchor element.com">external link</a>
+ <a href="#">internal link </a>
+ <p> 
+   <a> anchor element in the paragraph </a>
+ </p>
+ <ul>
+    <li> unorder list 1 </li>
+    <li> unorder list 2 </li>
+ </ul>
+ <ul>
+    <li> order list 1 </li>
+    <li> order list 2 </li>
+ </ul>
+ </div>
+ <form>
+  <input type="text URL" required> <-- required is used to not able to submit untile we type something in URL -->  
+  <button type="submit"> </button>
+ <label><input type="... " name="..." checked> indoor or outdoor </label>  
+ </form>
+
+ </main>
+</html>
