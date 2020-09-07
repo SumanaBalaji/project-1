@@ -1,2 +1,2 @@
-#HasnatCET.Hotel Booking.html
+#HasnatCET.HotelBooking.html
 basic on HTML5
