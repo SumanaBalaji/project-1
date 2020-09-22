@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF_8">
+        <style>
+            p.overline{text-decoration:overline;}
+            p.line-through{text-decoration:line-through;}
+            p.underline{text-decoration: underline;}
+            p.uppercase{text-transform: uppercase;text-align:center ;}
+            p.lowercase { text-transform: lowercase;text-align: left; text-indent:10px}
+            p.capitalize {text-transform: capitalize;text-align: right;}
+            div{ border: 1px solid black;
+                 padding: 10px;
+                 width: 200px;
+                 height: 300px;
+                 text-align: justify;}
+            p.ex1{direction: rtl; unicode-bidi: bidi-override;} 
+            img.top{vertical-align: top;}
+            img.middle{vertical-align: middle;}
+            img.bottom{vertical-align:bottom ;} 
+            p.space{white-space: nowrap;
+                    word-spacing: 10px;
+                    line-height: 0.9;
+                    letter-spacing:1px ;
+                    text-indent:50px;
+                    text-shadow: 2px 2px 5px red;}
+
+        </style>
+    </head>
+    <body>
+        <h2>This is text-decoration</h2>
+        <p class="overline">this is overline</p>
+        <p class="line-through">this is line-through</p>
+        <p class="underline">this is underline</p>
+        <h2>this is text-alignment,text-transform</h2>
+        <p class="uppercase">this is sometext</p>
+        <p class="lowercase">This is some text.</p>
+        <p class="capitalize">This is some text.</p>
+        <div>
+            Visakhapatnam is a port city and industrial center in the Indian state of Andhra Pradesh, on the Bay of Bengal. It's known for its many beaches, including Ramakrishna Beach, home to a preserved submarine at the Kursura Submarine Museum. Nearby are the elaborate Kali Temple and the Visakha Museum, an old Dutch bungalow housing local maritime and historical exhibits.
+        </div>
+        <p class="ex1">This is right-to-left text direction.</p>
+        <p>An<img  src="images/newdownload.jpg"  alt="A picture of vizag">image with default alignment</p>
+        <p>An<img class="top"  src="images/newdownload.jpg"  alt="A picture of vizag">image with top alignment</p>
+        <p>An<img  class="middle" src="images/newdownload.jpg"  alt="A picture of vizag">image with middle alignment</p>
+        <p>An<img class="bottom" src="images/newdownload.jpg"  alt="A picture of vizag">imag with bottom alignment</p>
+        <p class=space> Visakhapatnam is a port city and industrial center in the Indian state of Andhra Pradesh, on the Bay of Bengal. It's known for its many beaches, including Ramakrishna Beach, home to a preserved submarine at the Kursura Submarine Museum. Nearby are the elaborate Kali Temple and the Visakha Museum, an old Dutch bungalow housing local maritime and historical exhibits.</p>
+    </body>
+</html>
