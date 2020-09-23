@@ -1,0 +1,13 @@
+p{outline-color:blue;}
+p.dotted{outline-style: dotted;}
+p.dashed{outline-style: dashed;}
+p.solid{outline-style: solid;}
+p.double{outline-style: double;}
+p.groove{outline-style: groove;}
+p.ridge{outline-style: ridge;}
+p.inset{outline-style: inset;}
+p.outset{outline-style: outset;}
+p.thin{outline-width: thin;border:1px solid red;outline-style: solid;}
+p.thick{outline-width: thick;border:1px solid red;outline-style: solid;}
+p.medium{outline-width: medium;border:1px solid red;outline-style: solid;}
+p.px{outline-width: 4px;border:1px solid red;outline-style: solid;outline-offset: 5px;}
