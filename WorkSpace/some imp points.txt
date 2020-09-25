@@ -1,0 +1,7 @@
+IN VS-CODE:-
+After writting the program 
+step1:- first stage the file in VS-code repository 
+step2:-then commite the file
+step3:-then pull the file 
+         IF:-their is any merge  conflits then clear the conflits and stage and push the file
+         ELSE:-push the file  
