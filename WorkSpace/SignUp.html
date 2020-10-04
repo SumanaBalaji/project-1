@@ -3,23 +3,38 @@
     <head>
         <meta charset="UTF_8">
         <meta name="viewpoint" content="width-device-width,initial-scale=1">
-    </head>
+        <link rel="stylesheet" href="SignUp.css">
+    </head> 
     <body>
-        <fieldset>
-            <input type="text" placeholder="First Name">
+        <div style="border: 1px solid black; width:40%;margin-left: auto;margin-right: auto; margin-bottom:100px;margin-top:100px;">
+            <h1>Create Profile</h1>
+            <div class="label" style="text-align: center;">
+            <label style="margin-left:5px; padding-right: 70px;"
+            for="FirstName">FirstName:</label><input type="text" placeholder="FirstName">
             <br><br>
-            <input type="text" placeholder="Last Name">
+            <label style="padding-right:70px; margin-left:5px" 
+            for="LastName">LastName:</label><input type="text" placeholder="LastName">
             <br><br>
-            <label for="male">male:</label><input type="checkbox" name="checkboxone" value="male">
-            <label for="female">female</label><input type="checkbox" name="checkboxone" value="female">
+            <label style="padding-right:98px; margin-left:-160px;" 
+            for="male">male:</label><input type="checkbox" name="checkboxone" value="male">
             <br><br>
-            <input type="tel" placeholder="Phone Number">
+            <label style="padding-right:90px; margin-left: -160px;" 
+            for="female">female:</label><input type="checkbox" name="checkboxone" value="female">
             <br><br>
-            <input type="text" placeholder="Create PassWord">
+            <label style="padding-right: 45px; margin-left: 5px;"
+            for="Phone Number">Phone Number:</label><input type="number"  placeholder="Phone Number">
             <br><br>
-            <input type="text" placeholder="Conform PassWord">
+            <label style="padding-right: 35px; margin-left:5px ;"
+            for="Create PassWord">Create Password:</label><input type="text" placeholder="Create Password">
             <br><br>
-            <input type="submit">
-        </fieldset>
+            <label style="padding-right: 20px; margin-left:2px;" 
+            for="Conform PassWord">Conform Password:</label><input type="text" placeholder="Conform Password">
+            <br><br><br>
+            <div class="button">
+              <button type="submit">Login</button>
+              <br><br>
+            </div>
+            </div>
+        
     </body>
 </html>
