@@ -1,0 +1,17 @@
+body{
+    background-image: url("Images/images.jpg");
+    background-size: cover;
+   }
+   h1{
+    text-align: center;
+    color: rgb(238, 130, 238);
+   }
+   button[type="submit"]{
+    display: block;
+    margin : 0 auto;
+    box-align:left ;
+   }
+   .button{
+       text-align: right;
+       padding-left:450px;
+   }

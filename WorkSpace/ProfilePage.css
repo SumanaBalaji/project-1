@@ -16,7 +16,6 @@ width: 75px;
 }
 
 input[type="text"] {
- display: block;
  margin : 0 auto;
 }
 button[type="submit"]{
