@@ -5,3 +5,14 @@ step2:-then commite the file
 step3:-then pull the file 
          IF:-their is any merge  conflits then clear the conflits and stage and push the file
          ELSE:-push the file  
+____________________________________________________________________________________________________________________________
+Using GitBash:-
+After creating a repository in gitbash
+step1:-first copy  the url
+step2:-Go to your folder where you want to paste it
+step3:-then right click and open gitbash
+step4:-then a command promote is going to open
+step5:-then type git clone and give space and paste the copied url
+step6:-then the folder repository is copied here
+step7:-create a newfolder in it
+step8:-go to VS code open new  
