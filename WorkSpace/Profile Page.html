@@ -11,11 +11,12 @@
                 <h1>User Profile Form</h1>
                <img src="Images/Face icon.png">
                 <br>
-                <label style="margin-left:75px; padding-right: 70px;
+            <form>
+                <label style="margin-left:75px; padding-right: 70px";
                 for="Username">Username:</label>
                 <input type="text" name="username" placeholder="Username">
                 <br><br>
-                <label style="margin-left:75px; padding-right: 73px;
+                <label style="margin-left:75px; padding-right: 73px";
                 for="password">Password:</label>
                 <input type="password" name="password" placeholder="Password">
                 <br><br>
@@ -28,8 +29,20 @@
                 <br>
                 <div class="link2">Not registred?<!--<a href="C:/NewWorkSpace/project-1/WorkSpace/SignUp.html">-->
                     <a href="https://sumanabalaji.github.io/project-1/WorkSpace/SignUp.html">Click here</a></div>
+            </form>
         </forms>
     </div>
+    <script>
+function myFunction() {
+  var x = document.forms["form1"];
+  var text = "";
+  var i;
+  for (i = 0; i < x.length ;i++) {
+    text += x.elements[i].value + "<br>";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+    </script>
     </body>
 
 </html>
